@@ -4,7 +4,7 @@ global:
     monitor: "prom-monitor"
 
 scrape_config:
-  - job_name: dc_prometheus
+  - job_name: kube_prometheus
     honor_labels: true
     metrics_path: /federate
     params:
